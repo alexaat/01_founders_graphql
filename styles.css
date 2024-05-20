@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 43, 43);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ccc;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{    
+    width: 96px;
+    height: 96px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: rgb(37, 37, 37);
+    padding: 24px;   
+    box-shadow: rgba(0, 0, 0, 0.675) 1.95px 1.95px 2.6px;    
+}
+
+.log-in-container{
+    margin-top: 120px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-in-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-input{
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    color: white;
+    margin-top: 24px;
+    font-size: 1.1rem;   
+}
+
+#login-button-submit{
+    width: 120px;
+    height: 40px;
+    margin-top: 24px;
+    background-color: #9966ff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+#login-button-submit:hover{
+    cursor: pointer;
+}
+
+.error-message{
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    display: none
+}
+
+
+
+.welcome-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+    width: 800px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.welcome-message{
+    color: #ccc;
+    font-size: 1.2rem;
+    line-height: 200%;    
+}
+
+.pie-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 784px;
+}
+
+
+
+.card-invert{
+    background-color: rgb(37, 37, 37);
+    padding: 24px;     
+    box-shadow: inset rgba(0, 0, 0, 0.675) 1.95px 1.95px 2.6px;    
+}
+.audit-container{
+    margin-top: 24px;
+    width: 784px;
+    height: 360px;
+    overflow: scroll;
+    margin-bottom: 36px;
+}
+
+
+.audits-list{
+    list-style-type: none;
+    height: 360px;
+    width: 780px;
+ }
+
+ .audit-item-project-name{
+    width: 35%
+ }
+ 
+ .audit-item-capitan-name{
+    width: 45%;    
+ }   
+    
+.audit-item-code{
+    margin-left: 4px;
+}
+
+.audits-list li{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #5e5e5e;
+    margin-bottom: 16px;  
+}
+
+
+.tabs-container{
+    width: 784px;
+    margin-bottom: 36px;
+}
+.tabs-parent{
+    border: 1px solid #ddd;
+}
+.tab-buttons{
+    background-color: #ddd;
+    width: 100%;
+    height:30px; 
+    display: flex;
+    justify-content: flex-start;   
+}
+.tab-button{
+    background-color: transparent;
+    border: none;
+    outline: none;  
+    width: 140px;
+    height: 100%;
+}
+.tab-button:hover{
+    background-color: #aaa;
+    cursor: pointer;
+}
+.tab-content{
+    padding: 8px;
+}
+.tab-selected{
+    background-color: #777; 
+}
+.stat-one-container{
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 300px;
+    height: 300px;
+}
+
+    
